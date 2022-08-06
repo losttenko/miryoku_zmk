@@ -78,6 +78,15 @@ U_NP,              U_NP,              &lt U_MEDIA ESC,   &lt U_NAV SPC,     &lt 
 &lt U_BUTTON J,    &hm RALT SLASH,    &kp COMMA,         &kp K,             &kp SQT,           &kp W,             &kp M,             &kp L,             &hm RALT P,        &lt U_BUTTON V,    \
 U_NP,              U_NP,              &lt U_MEDIA ESC,   &lt U_NAV SPC,     &lt U_MOUSE TAB,   &lt U_SYM RET,     &lt U_NUM BSPC,    &lt U_FUN DEL,     U_NP,              U_NP
 
+#define MIRYOKU_ALTERNATIVES_BASE_BEAKLROCK                                    \
+  &kp J, &kp P, &kp U, &kp O, &kp K, &kp B, &kp D, &kp R, &kp F, &kp Q,        \
+      &hm LGUI W, &hm LALT I, &hm LCTRL E, &hm LSHFT A, &kp DOT, &kp G,        \
+      &hm LSHFT T, &hm LCTRL N, &hm LALT S, &hm LGUI H, &lt U_BUTTON SLASH,    \
+      &hm RALT Y, &kp SQT, &kp COMMA, &kp Z, &kp V, &kp M, &kp L, &hm RALT C,  \
+      &lt U_BUTTON X, U_NP, U_NP, &lt U_MEDIA ESC, &lt U_NAV SPC,              \
+      &lt U_MOUSE TAB, &lt U_SYM RET, &lt U_NUM BSPC, &lt U_FUN DEL, U_NP,     \
+      U_NP
+
 #define MIRYOKU_ALTERNATIVES_BASE_COLEMAK \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp G,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 &hm LGUI A,        &hm LALT R,        &hm LCTRL S,       &hm LSHFT T,       &kp D,             &kp H,             &hm LSHFT N,       &hm LCTRL E,       &hm LALT I,        &hm LGUI O,        \
