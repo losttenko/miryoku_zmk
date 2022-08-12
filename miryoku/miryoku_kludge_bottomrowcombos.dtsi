@@ -13,6 +13,8 @@ bottomrowcombos_ ## LAYER ## _ ## POSITION { \
 / {
   combos {
     compatible = "zmk,combos";
+    MIRYOKU_KLUDGE_BOTTOMROWCOMBOS_MACRO(U_BASE, LEFTPINKIE, &kp LC(C))
+    MIRYOKU_KLUDGE_BOTTOMROWCOMBOS_MACRO(U_BASE, LEFTINNERINDEX, &kp LC(V))
 #if defined (MIRYOKU_LAYERS_FLIP)
   #if defined (MIRYOKU_ALPHAS_AZERTY)
   #elif defined (MIRYOKU_ALPHAS_BEAKL15)
